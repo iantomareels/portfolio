@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Series - Ianto Mareels Portfolio</title>
+    <title>Ianto Mareels - Super Series</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
 
@@ -9,11 +9,19 @@
     <nav class="navbar">
         <div class="container">
             <a href="../index.html" class="logo">
-                <img src="../img/Iantobranding-black.png" alt="Ianto Mareels">
+                <img src="../img/IantoBranding-black.png" alt="Ianto Mareels">
             </a>
-            <ul class="nav-links">
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="menu-toggle-lines" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
                 <li><a href="../index.html">Work</a></li>
-                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../about.html">About</a></li>
                 <li><a href="https://www.instagram.com/iantomareels/" target="_blank">Instagram</a></li>
             </ul>
         </div>
@@ -49,7 +57,7 @@
             <div class="project-gallery">
                 <div class="gallery-grid">
                     <div class="gallery-item gallery-item--wide">
-                        <img src="super-series/superseries-portfolio-5.jpg" alt="Super Series" style="width: 100%; display: block;">
+                        <img src="super-series/superseries-portfolio-4.jpg" alt="Super Series" style="width: 100%; display: block;">
                     </div>
                     <div class="gallery-item gallery-item--wide">
                         <img src="super-series/superseries-portfolio-1-2.jpg" alt="Super Series" style="width: 100%; display: block;">
@@ -83,6 +91,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
+                <a href="../index.html" class="footer-logo">
+                    <img src="../img/IantoBranding-white.png" alt="Ianto Mareels">
+                </a>
                 <p>© 2026 Ianto Mareels. Alle rechten voorbehouden.</p>
                 <ul class="footer-nav">
                     <li><a href="https://www.linkedin.com/in/iantomareels/" target="_blank">LinkedIn</a></li>
@@ -94,4 +105,5 @@
     </footer>
 
 
+<script src="../nav-toggle.js"></script>
 </body></html>

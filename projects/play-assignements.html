@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play assignements - Ianto Mareels Werk</title>
+    <title>Ianto Mareels - Play assignements</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
 
@@ -9,9 +9,17 @@
     <nav class="navbar">
         <div class="container">
             <a href="../index.html" class="logo">
-                <img src="../img/Iantobranding-black.png" alt="Ianto Mareels">
+                <img src="../img/IantoBranding-black.png" alt="Ianto Mareels">
             </a>
-            <ul class="nav-links">
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="menu-toggle-lines" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
                 <li><a href="../index.html">Werk</a></li>
                 <li><a href="../about.html">Over mij</a></li>
                 <li><a href="https://www.instagram.com/iantomareels/" target="_blank">Instagram</a></li>
@@ -123,7 +131,7 @@
             <div class="footer-content">
                 <p>© 2026 Ianto Mareels. Alle rechten voorbehouden.</p>
                 <a href="../index.html" class="footer-logo">
-                    <img src="../img/Iantobranding-white.png" alt="Ianto Mareels">
+                    <img src="../img/IantoBranding-white.png" alt="Ianto Mareels">
                 </a>
                 <ul class="footer-nav">
                     <li><a href="https://www.linkedin.com/in/iantomareels/" target="_blank">LinkedIn</a></li>
@@ -135,7 +143,8 @@
     </footer>
 
 
-    <script src="../scripts.js"></script>
+    <script src="../sticky-project-info.js"></script>
+    <script src="../nav-toggle.js"></script>
 
 
 </body></html>
